@@ -1,0 +1,54 @@
+{
+  "message": "hello i18n !!",
+  "menu": {
+    "home" : "Casa",
+    "about" : "Sobre nós",
+    "products" : "Produtos",
+    "contact_us" : "Contate-Nos",
+    "language" : "Língua"
+  },
+  "carousel" : [
+    {
+      "bg_img" : "https://source.unsplash.com/2v-kOwtpxpE",
+      "header" : "Feito à mão",
+      "subheader" : "para a sua casa perfeita"
+    },
+    {
+      "bg_img" : "https://source.unsplash.com/1WyHB_LhxfI",
+      "header" : "Tradição",
+      "subheader" : "Símbolo de Grandeza, Nobreza"
+    },
+    {
+      "bg_img" : "https://source.unsplash.com/Vra_DPrrBlE",
+      "header" : "Herança cultural",
+      "subheader" : "Uma declaração de moda"
+    }
+  ],
+  "blocks": [
+    {
+      "title": "Jornada da Marca",
+      "subtitle" : "Elegância com Estilo",
+      "description" : "Estamos no centro da fabricação de carpetes desde 1970. Gerenciar todo o processo de fabricação internamente nos dá confiança na qualidade do produto final. Cada carpete feito à mão requer quase 100 horas de trabalho humano intensivo, criando um produto de classe mundial com estilo e elegância."
+    },
+    {
+      "title": "MELHOR QUALIDADE",
+      "subtitle" : "Ofício Indiano Atemporal e Único",
+      "description" : "Escolha entre uma seleção de lindos tapetes feitos à mão para sua casa."
+    },
+    {
+      "title": "TAPETES PREMIUM",
+      "subtitle" : "Criado para a perfeição",
+      "description" : "Uma combinação perfeita de beleza e elegância criada exclusivamente para sua residência."
+    },
+    {
+      "title": "Nossos produtos",
+      "subtitle" : "Coleção de tapetes requintados e tapetes domésticos, tapetes com nós, durries e infantis."
+    },
+    {
+      "title": "Nossa Garantia"
+    }
+  ],
+  "footer" : {
+    "about" : "Temos uma longa presença na indústria de tapetes de Bhadohi e estamos associados a vários exportadores. Fabricamos tapetes de design étnico puro por excelência desde 1970."
+  }
+}

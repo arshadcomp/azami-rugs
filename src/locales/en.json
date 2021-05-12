@@ -1,0 +1,54 @@
+{
+  "message": "hello i18n !!",
+  "menu": {
+    "home" : "Home",
+    "about" : "About Us",
+    "products" : "Products",
+    "contact_us" : "Contact Us",
+    "language" : "Language"
+  },
+  "carousel" : [
+    {
+      "bg_img" : "https://source.unsplash.com/2v-kOwtpxpE",
+      "header" : "Handcrafted",
+      "subheader" : "for your Perfect Home"
+    },
+    {
+      "bg_img" : "https://source.unsplash.com/1WyHB_LhxfI",
+      "header" : "Tradition",
+      "subheader" : "Symbol of Grandeur, Nobility"
+    },
+    {
+      "bg_img" : "https://source.unsplash.com/Vra_DPrrBlE",
+      "header" : "Cultural Heritage",
+      "subheader" : "A Fashion Statment"
+    }
+  ],
+  "blocks": [
+    {
+      "title": "Brand Journey",
+      "subtitle" : "Elegance with Style",
+      "description" : "We are at the heart of carpet manufacturing since 1970's. Handling all the manufacturing process handled in-house gives us confidence in the final product quality. Each handcrafted carpet requires almost 100 man-hour of intensive human effort, creating a world class product with style and elegance."
+    },
+    {
+      "title": "FINEST QUALITY",
+      "subtitle" : "Timeless, Unique Indian Craft",
+      "description" : "Choose from a selection of beautiful handcrafted carpets for your home."
+    },
+    {
+      "title": "PREMIUM RUGS",
+      "subtitle" : "Crafted for Perfection",
+      "description" : "A perfect blend of beauty and elegance uniquely created for your abode."
+    },
+    {
+      "title": "Our Products",
+      "subtitle" : "Collection of exquisite rugs and home carpets, knotted, durries and children rugs."
+    },
+    {
+      "title": "Our Assurance"
+    }
+  ],
+  "footer" : {
+    "about" : "We have a very long presence in the carpet industry of Bhadohi and have been associated with multiple exporters. We manufacture pure ethnically designed Carpets par excellence since 1970."
+  }
+}

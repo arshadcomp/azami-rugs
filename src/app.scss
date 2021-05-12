@@ -1,0 +1,53 @@
+$purple: #6f42c1 !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+		'purple' : $purple
+  ),
+  $theme-colors
+);
+
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-responsive-font-sizes: true;
+
+// Then import Bootstrap an BootstrapVue SCSS files (order is important)
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&family=Great+Vibes&family=Anton&family=Parisienne&display=swap');
+
+.font-courgette {
+  font-family: 'Courgette', cursive;
+}
+
+.font-dancing {
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.font-vibes {
+  font-family: 'Great Vibes', cursive;
+}
+
+.font-parisienne {
+  font-family: 'Parisienne', cursive;
+}
+
+.font-anton {
+  font-family: 'Anton', sans-serif;
+}
+
+.font-gradient {
+  background: -webkit-linear-gradient(#007bff, #28a745);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+ 
+
+  
