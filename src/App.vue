@@ -39,8 +39,6 @@ export default {
         this.$store.commit('SET_AUTH_STATE', 'signedout')
         this.$store.commit('SET_AUTH_DATA', null)
       }
-      // if(authState === 'signedin' && this.$route.path === '/login' )
-      //   this.$router.push('/')
     })
   },
   beforeDestroy() {
