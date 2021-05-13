@@ -1,28 +1,50 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <b-container id="app" class="p-0 m-0 bg-light" fluid>
+      <Menu/>
+      <router-view></router-view>
+      <Footer/>
+    </b-container>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { Auth } from 'aws-amplify'
+import { onAuthUIStateChange } from '@aws-amplify/ui-components'
+
+import Menu from "@/components/Menu.vue";
+import Footer from "@/components/Footer.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Menu,
+    Footer,
+  },
+  created() {
+    Auth.currentAuthenticatedUser()
+      .then((user) => {
+        this.$store.commit('SET_AUTH_STATE', 'signedin')
+        this.$store.commit('SET_AUTH_DATA', {attributes: user.attributes, signInUserSession: user.signInUserSession})
+      }).catch(err => {
+        console.log(err)
+        this.$store.commit('SET_AUTH_STATE', 'signedout')
+        this.$store.commit('SET_AUTH_DATA', null)
+      })
+
+    onAuthUIStateChange((authState, authData) => {
+      console.log('AUTH STATE', authState)
+      if(authState === 'signedin') {
+        this.$store.commit('SET_AUTH_STATE', authState)
+        this.$store.commit('SET_AUTH_DATA', authData)
+      } else {
+        this.$store.commit('SET_AUTH_STATE', 'signedout')
+        this.$store.commit('SET_AUTH_DATA', null)
+      }
+      // if(authState === 'signedin' && this.$route.path === '/login' )
+      //   this.$router.push('/')
+    })
+  },
+  beforeDestroy() {
+    return onAuthUIStateChange;
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
