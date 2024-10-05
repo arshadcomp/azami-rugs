@@ -11,7 +11,7 @@
 			<b-row class="mb-3 text-center" align-v="center">
 				<b-col cols="12" md="6">
 					<!-- <img src="https://picsum.photos/seed/picsum/600/600" alt="" class="img-fluid w-100 rounded mb-3"> -->
-					<img src="https://source.unsplash.com/oGXtAZzKR20/600x600" alt="" class="img-fluid w-100 rounded mb-3">
+					<img src="https://azamirugsd1aa27cd3a7a49e19234d2b0adc6db8f183234-dev.s3.ap-south-1.amazonaws.com/public/images/unsplash-home-4.jpg" width="640" height="640" alt="" class="img-fluid w-100 rounded mb-3">
 				</b-col>
 				<b-col cols="12" md="6">
 					<h4 class="font-gradient" v-t="'blocks[1].title'"></h4>
@@ -22,7 +22,7 @@
 			<b-row class="mb-3 text-center" align-v="center">
 				<b-col cols="12" md="6" order-md="2">
 					<!-- <img src="https://picsum.photos/seed/picsum/600/600" alt="" class="img-fluid w-100 rounded mb-3"> -->
-					<img src="https://source.unsplash.com/2oruk2qVpkI/600x600" alt="" class="img-fluid w-100 rounded mb-3">
+					<img src="https://azamirugsd1aa27cd3a7a49e19234d2b0adc6db8f183234-dev.s3.ap-south-1.amazonaws.com/public/images/unsplash-home-5.jpg" width="640" height="640" alt="" class="img-fluid w-100 rounded mb-3">
 				</b-col>
 				<b-col cols="12" md="6" order-md="1">
 					<h4 class="font-gradient" v-t="'blocks[2].title'"></h4>
@@ -105,7 +105,7 @@
 
 .parallax {
         background-color: white;
-        background-image: url("https://source.unsplash.com/p00r5JmTMpY");
+        background-image: url("https://azamirugsd1aa27cd3a7a49e19234d2b0adc6db8f183234-dev.s3.ap-south-1.amazonaws.com/public/images/unsplash-home-6.jpg");
         height: 100%; 
         /* Create the parallax scrolling effect */
         background-attachment: fixed;

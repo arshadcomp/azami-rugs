@@ -10,46 +10,20 @@
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
-      <!-- <b-carousel-slide v-for="(item, i) in carousel" :key="i">
-        <template #img>
-            <img
-              class="d-block d-md-none img-fluid w-100"
-              width="750"
-              height="1334"
-              :src="item.bg_img+'/750x1334'"
-              alt="image slot"
-            >
-            <img
-              class="d-none d-md-block img-fluid w-100"
-              width="1920"
-              height="768"
-              :src="item.bg_img+'/1920x768'"
-              alt="image slot"
-            >
-        </template>
-        <b-jumbotron bg-variant="transparent" class="rounded py-0">
-          <template #header> 
-            <transition name="slide-fade" appear><div class="font-courgette">{{item.header}}</div></transition>
-          </template>
-          <template #lead>
-            <div class="font-courgette">{{item.subheader}}</div>
-          </template>
-        </b-jumbotron>
-      </b-carousel-slide> -->
       <b-carousel-slide>
         <template #img>
             <img
               class="d-block d-md-none img-fluid w-100"
               width="750"
               height="1334"
-              src="https://source.unsplash.com/2v-kOwtpxpE/750x1334"
+              src="https://azamirugsd1aa27cd3a7a49e19234d2b0adc6db8f183234-dev.s3.ap-south-1.amazonaws.com/public/images/unsplash-home-1.jpg"
               alt="image slot"
             >
             <img
               class="d-none d-md-block img-fluid w-100"
               width="1920"
               height="768"
-              src="https://source.unsplash.com/2v-kOwtpxpE/1920x768"
+              src="https://azamirugsd1aa27cd3a7a49e19234d2b0adc6db8f183234-dev.s3.ap-south-1.amazonaws.com/public/images/unsplash-home-1.jpg"
               alt="image slot"
             >
         </template>
@@ -69,14 +43,14 @@
               class="d-block d-md-none img-fluid w-100"
               width="750"
               height="1334"
-              src="https://source.unsplash.com/1WyHB_LhxfI/750x1334"
+              src="https://azamirugsd1aa27cd3a7a49e19234d2b0adc6db8f183234-dev.s3.ap-south-1.amazonaws.com/public/images/unsplash-home-2.jpg"
               alt="image slot"
             >
             <img
               class="d-none d-md-block img-fluid w-100"
               width="1920"
               height="768"
-              src="https://source.unsplash.com/1WyHB_LhxfI/1920x768"
+              src="https://azamirugsd1aa27cd3a7a49e19234d2b0adc6db8f183234-dev.s3.ap-south-1.amazonaws.com/public/images/unsplash-home-2.jpg"
               alt="image slot"
             >
         </template>
@@ -96,14 +70,14 @@
               class="d-block d-md-none img-fluid w-100"
               width="750"
               height="1334"
-              src="https://source.unsplash.com/Vra_DPrrBlE/750x1334"
+              src="https://azamirugsd1aa27cd3a7a49e19234d2b0adc6db8f183234-dev.s3.ap-south-1.amazonaws.com/public/images/unsplash-home-3.jpg"
               alt="image slot"
             >
             <img
               class="d-none d-md-block img-fluid w-100"
               width="1920"
               height="768"
-              src="https://source.unsplash.com/Vra_DPrrBlE/1920x768"
+              src="https://azamirugsd1aa27cd3a7a49e19234d2b0adc6db8f183234-dev.s3.ap-south-1.amazonaws.com/public/images/unsplash-home-3.jpg"
               alt="image slot"
             >
         </template>
